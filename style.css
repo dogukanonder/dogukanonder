@@ -1,0 +1,150 @@
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.Doğukan{
+    width: 300px;
+    border-radius: 50%;
+    margin-right: 100px;
+    
+}
+.doukan1{
+    color: yellow;
+    font-size: 1.2rem;
+    float: right;
+
+    margin-top: 100px;
+
+}
+.aga{
+    background-image: url("./stars_space_black_207055_3840x2400.png");
+}
+.section1{
+    display: inline-flex;
+}
+
+.haklar{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+.skill{
+    width: 500px;
+    margin: 60px auto;
+    color: rgb(140, 151, 207);
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 25), 0 10px 10px rgb(0, 0, 0,0.22);
+    
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bar{
+    background: #04364A;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 12), 0 10px 10px rgba(0, 0, 0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 25), 0 10px 10px rgba(0, 0, 0,0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(120, 180, 114)0%,rgb(221, 94, 94)100%);
+}
+.html{
+    width: 75%;
+    animation:html 5s;
+
+}
+.css{
+    width: 60%;
+    animation:css 5s;
+}
+.sql{
+    width: 40%;
+    animation:sql 5s;
+}
+.Javascript{
+    width: 45%;
+    animation:Javascript 5s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes sql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes Javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+
+.Proje{
+    height: 100%;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#threads{
+    margin-left: 10px;
+}
+#steam{
+    margin-left: 10px;
+}
+            
+#yazi{
+    background-color: rgb(44, 92, 135);
+}
+
+#github{
+    margin-left: 10px;
+}
+#youtube{
+    margin-left: 10px;
+}
+
+#insta{
+    margin-left: 10px;
+}
